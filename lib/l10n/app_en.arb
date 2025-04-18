@@ -1,0 +1,109 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Quiz Master",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+
+  "loginScreenTitle": "Quiz Master",
+  "signInWithGoogle": "Sign in with Google",
+  "continueAsGuest": "Continue as Guest",
+  "signInFailed": "Sign-in failed. Please try again.",
+  "signInError": "Error signing in: {errorMessage}",
+  "@signInError": {
+    "description": "Error message shown during sign in",
+    "placeholders": {
+      "errorMessage": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "signInCancelled": "Sign-in cancelled.",
+
+  "homeScreenTitle": "Quiz Master",
+  "welcomeMessage": "Welcome, {userName}!",
+  "@welcomeMessage": {
+    "description": "Welcome message on the home screen",
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "Player"
+      }
+    }
+  },
+  "startQuiz": "Start Quiz",
+  "leaderboard": "Leaderboard",
+  "miniGames": "Mini-Games",
+  "settings": "Settings",
+  "logout": "Logout",
+  "logoutError": "Error logging out: {errorMessage}",
+  "@logoutError": {
+     "description": "Error message shown during logout",
+    "placeholders": {
+      "errorMessage": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "points": "Points",
+  "coins": "Coins",
+
+  "selectLevelTitle": "Select Level",
+
+  "quizScreenTitle": "{levelName} - Question {current}/{total}",
+  "@quizScreenTitle": {
+    "description": "Title shown during the quiz",
+    "placeholders": {
+      "levelName": {"type": "String"},
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "score": "Score: {score}",
+  "@score": { "placeholders": { "score": {"type": "int"} } },
+  "coinsEarned": "Coins: {coins}",
+   "@coinsEarned": { "placeholders": { "coins": {"type": "int"} } },
+  "correct": "Correct!",
+  "incorrect": "Incorrect!",
+  "nextQuestion": "Next Question",
+  "finishQuiz": "Continue",
+  "useHint": "Use Hint (Cost: {cost} Coins)",
+  "@useHint": { "placeholders": { "cost": {"type": "int"} } },
+  "hintUsed": "Hint used! {cost} coins deducted.",
+   "@hintUsed": { "placeholders": { "cost": {"type": "int"} } },
+  "notEnoughCoins": "Not enough coins! You need {cost}.",
+   "@notEnoughCoins": { "placeholders": { "cost": {"type": "int"} } },
+   "mustBeLoggedIn": "You must be logged in to use hints.",
+   "noQuestionsFound": "No questions found for {levelName}. Please try another level or check back later.",
+   "@noQuestionsFound": { "placeholders": { "levelName": {"type": "String"} } },
+
+
+  "resultsScreenTitle": "Quiz Results",
+  "congratulations": "Congratulations!",
+  "goodEffort": "Good Effort!",
+  "yourScore": "Your Score",
+  "coinsEarnedResult": "+ {coins} Coins Earned",
+  "@coinsEarnedResult": { "placeholders": { "coins": {"type": "int"} } },
+  "playAgain": "Play Again",
+  "goHome": "Go Home",
+
+  "leaderboardScreenTitle": "Leaderboard",
+  "leaderboardEmpty": "Leaderboard is empty. Play some quizzes!",
+  "leaderboardError": "Failed to load leaderboard. Please check your connection or try again later.\n(Error: {errorMessage})",
+   "@leaderboardError": { "placeholders": { "errorMessage": {"type": "String"} } },
+   "anonymousPlayer": "Anonymous Player",
+
+  "miniGameMemory": "Memory Game",
+  "miniGameReaction": "Reaction Time",
+  "memoryGameNotImplemented": "Memory Game not implemented yet.",
+  "reactionGameTitle": "Reaction Time Game",
+  "reactionWait": "Wait for Green...",
+  "reactionTapNow": "TAP NOW!",
+  "reactionTooSoon": "Too Soon!",
+  "reactionTryAgain": "Try Again",
+  "reactionYourTime": "Your Reaction Time:",
+  "reactionPlayAgain": "Play Again"
+}

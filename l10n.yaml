@@ -1,0 +1,21 @@
+# Specifies the ARB file used as the template for messages.
+# All other ARB files must contain the same message keys.
+template-arb-file: app_en.arb
+
+# Specifies the directory containing the ARB files.
+arb-dir: lib/l10n
+
+# Specifies the output Dart file name.
+output-localization-file: app_localizations.dart
+
+# Specifies the output directory for the generated Dart files.
+# Optional: Defaults to the same directory as the input ARB files.
+# output-dir: lib/generated/l10n
+
+# Specifies the class name for the generated localization delegate.
+# Optional: Defaults to AppLocalizations.
+# output-class: AppLocalizations
+
+# Specifies whether to generate nullable getters for messages.
+# Recommended to set to false for null safety.
+nullable-getter: false
